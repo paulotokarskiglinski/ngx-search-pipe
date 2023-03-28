@@ -1,6 +1,6 @@
 {
   "name": "ngx-search-pipe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "paulotokarskiglinski",
   "description": "Angular search pipe to filter a list of objects containing the search string.",
   "keywords": [
