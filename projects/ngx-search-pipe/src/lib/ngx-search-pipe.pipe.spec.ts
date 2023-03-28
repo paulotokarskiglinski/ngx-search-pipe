@@ -26,6 +26,15 @@ describe('NgxSearchPipe', () => {
     expect(filteredItems[1]).toEqual(DATA[1]);
   });
 
+  it('should filter the array based on the search text ignoring the case', () => {
+    const searchText = 'Doe';
+    const filteredItems = pipe.transform(DATA, searchText);
+
+    expect(filteredItems.length).toBe(2);
+    expect(filteredItems[0]).toEqual(DATA[0]);
+    expect(filteredItems[1]).toEqual(DATA[1]);
+  });
+
   it('should filter the array based on the search text for nested objects', () => {
     const searchText = 'developer';
     const filteredItems = pipe.transform(DATA, searchText);

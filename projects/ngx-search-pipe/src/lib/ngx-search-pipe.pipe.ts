@@ -24,7 +24,7 @@ export class NgxSearchPipe implements PipeTransform {
           return flat;
         };
 
-        return Object.values(flatObject(item)).join(' ').toLowerCase().includes(searchText);
+        return Object.values(flatObject(item)).join(' ').toLowerCase().includes(searchText.toLowerCase());
       });
     }
     
