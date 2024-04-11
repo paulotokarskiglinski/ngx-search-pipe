@@ -49,9 +49,9 @@ import { NgxSearchPipeModule } from 'ngx-search-pipe'; // <--
 export class AppModule { }
 ```
 
-In your component just create a search `string` and pass it as a parameter to the pipe `ngxSearchPipe` into your `*ngFor`. It also supports nested objects! As you type, the list of objects will be automatically filtered:
+In your component just create a search `string` and pass it as a parameter to the pipe `ngxSearchPipe` into your `@for` or `*ngFor` loop. It also supports nested objects! As you type, the list of objects will be automatically filtered:
 
-Angular +17 syntax:
+Angular +17 syntax with signals:
 ```html
 <input type="text" [(ngModel)]="searchText">
 
