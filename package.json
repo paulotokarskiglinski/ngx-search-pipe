@@ -1,6 +1,6 @@
 {
   "name": "ngx-search-pipe",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "author": "paulotokarskiglinski",
   "description": "Angular search pipe to filter a list of objects containing the search string.",
   "keywords": [
@@ -22,24 +22,24 @@
   },
   "private": false,
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.3.3",
-    "@angular/animations": "^17.3.3",
-    "@angular/cli": "~17.3.3",
-    "@angular/common": "^17.3.3",
-    "@angular/compiler": "^17.3.3",
-    "@angular/compiler-cli": "^17.3.3",
-    "@angular/core": "^17.3.3",
-    "@angular/forms": "^17.3.3",
-    "@angular/platform-browser": "^17.3.3",
-    "@angular/platform-browser-dynamic": "^17.3.3",
-    "@angular/router": "^17.3.3",
+    "@angular-devkit/build-angular": "^19.2.4",
+    "@angular/animations": "^19.2.3",
+    "@angular/cli": "~19.2.4",
+    "@angular/common": "^19.2.3",
+    "@angular/compiler": "^19.2.3",
+    "@angular/compiler-cli": "^19.2.3",
+    "@angular/core": "^19.2.3",
+    "@angular/forms": "^19.2.3",
+    "@angular/platform-browser": "^19.2.3",
+    "@angular/platform-browser-dynamic": "^19.2.3",
+    "@angular/router": "^19.2.3",
     "@types/jest": "^29.5.12",
     "jasmine-core": "~5.1.2",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "ng-packagr": "^17.3.0",
+    "ng-packagr": "^19.2.0",
     "rxjs": "~7.8.1",
-    "typescript": "~5.4.4",
-    "zone.js": "~0.14.4"
+    "typescript": "~5.8.2",
+    "zone.js": "~0.15.0"
   }
 }
